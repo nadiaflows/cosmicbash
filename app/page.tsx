@@ -81,7 +81,7 @@ export default function Home() {
       )}
       
       <div className={`max-w-7xl mx-auto ${showModal ? 'blur-sm' : ''}`}>
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Cute Animal Farm Album</h1>
+        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Cute Animals Farm Album</h1>
         {greeting && (
           <p className="text-xl text-center mb-8 text-gray-600">{greeting}</p>
         )}
